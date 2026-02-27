@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Divyam1909/jenkinsXtomcat.git'
+                git branch: 'main', url: 'https://github.com/prashant8333/devopsexp4.git'
                  
             }
         }
